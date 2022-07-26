@@ -19,6 +19,10 @@
         android:name="com.example.notesapplofcoding.NoteFragment"
         android:label="NoteFragment"
         tools:layout="@layout/fragment_note">
-
+        <argument
+            android:name="note"
+            app:argType="com.example.notesapplofcoding.data.Note"
+            app:nullable="true"
+            android:defaultValue="@null" />
     </fragment>
 </navigation>
